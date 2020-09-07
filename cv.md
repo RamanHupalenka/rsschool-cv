@@ -1,8 +1,8 @@
 # Roman Gupalenko
 ## Contact Info
 **Phone: +375 (33) 676-55-24**<br/>
-**E-mail: gupalenko.98@mail.ru**<br/>
-**Vk.com: https://vk.com/id135060167**<br/>
+**E-mail: [gupalenko.98@mail.ru](mailto:gupalenko.98@mail.ru)**<br/>
+**Vk.com: [https://vk.com/id135060167](https://vk.com/id135060167)**<br/>
 ## Summary
 **My goal is every day improve my skills to in the future work remotely for a company or to become a freelancer.**
 ## Skills
