@@ -12,6 +12,7 @@
 **MySQL**<br/>
 **C#/.Net**
 ## Code examples
+```
     function every(array, predicate) {
       for (var i = 0; i < array.length; i++) {
         if (!predicate(array[i]))
@@ -32,6 +33,7 @@
     console.log(every([NaN, NaN, 4],   isNaN)); // → false
     console.log(some([NaN, 3, 4],      isNaN)); // → true
     console.log(some([2, 3, 4],        isNaN)); // → false
+```
 ## Experience and Education
 **Novopolski State Agrarian and Economic College (2017-2019 years)**<br/>
 [GeekBrains](https://geekbrains.ru/users/67753)<br/>
