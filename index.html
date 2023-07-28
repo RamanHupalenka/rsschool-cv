@@ -1,80 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>My Resume</title>
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;1,300" rel="stylesheet"/>
-</head>
-<body>
-<div class="resume">
-    <h1 id="romangupalenko">Roman Gupalenko</h1><hr>
-    <img width="300" src="https://sun9-53.userapi.com/c633517/v633517167/3870c/ql-ZIGg1c1c.jpg"/>
-    
-    <h2 id="contactinfo">Contact Info</h2><hr>
-    <p>
-        <strong>Phone: +375 (33) 676-55-24</strong><br/>
-        <strong>E-mail: <a href="mailto:gupalenko.98@mail.ru">gupalenko.98@mail.ru</a></strong><br/>
-        <strong>Vk.com: <a href="https://vk.com/id135060167">https://vk.com/id135060167</a></strong><br/>
-    </p>
-    
-    <h2 id="summary">Summary</h2><hr>
-    <p>
-        <strong>My goal is every day improve my skills to in the future work remotely for a company or to become a freelancer.</strong>
-    </p>
+    <head>
+        <meta charset="utf-8" />
+        <title>Raman Hupalenka | Resume</title>
+        <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;1,300"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css"
+        />
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="main_title">Raman Hupalenka</h1>
 
-    <h2 id="skills">Skills</h2><hr>
-    <p>
-        <strong>HTML/CSS</strong><br/>
-        <strong>JavaScript/Jquery</strong><br/>
-        <strong>PHP</strong><br/>
-        <strong>MySQL</strong><br/>
-        <strong>C#/.Net</strong>
-    </p>
+            <hr />
 
-    <h2 id="codeexamples">Code examples</h2><hr>
-    <pre>
-    <code>    
-        function every(array, predicate) 
-        {
-            for (var i = 0; i &lt; array.length; i++) 
-            {
-                if (!predicate(array[i]))
-                    return false;
+            <img class="main_hero" width="300" src="./hero.jpg" />
+
+            <h2 class="main_title">Contact info</h2>
+
+            <hr />
+
+            <ul class="main_list">
+                <li class="list_item">Phone: <a href="tel:+375336765524" target="_blank">+375 (33) 676-55-24</a>;</li>
+                <li class="list_item">
+                    E-mail: <a href="mailto:gupalenko.98@mail.ru" target="_blank">gupalenko.98@mail.ru</a>;
+                </li>
+                <li class="list_item">
+                    VK: <a href="https://vk.com/id135060167" target="_blank">https://vk.com/id135060167</a>;
+                </li>
+                <li class="list_item">
+                    Telegram: <a href="https://t.me/RmnHplnk" target="_blank">https://t.me/RmnHplnk</a>;
+                </li>
+                <li class="list_item">Discord: @raman_hupalenka.</li>
+            </ul>
+
+            <h2 class="main_title">Summary</h2>
+
+            <hr />
+
+            <p class="main_paragraph">
+                My goal is every day improve my skills to continue work remotely for a EPAM company.
+            </p>
+
+            <h2 class="main_title">Skills</h2>
+
+            <hr />
+
+            <ul class="main_list">
+                <li class="list_item">HTML;</li>
+                <li class="list_item">CSS/SCSS/SASS;</li>
+                <li class="list_item">JavaScript/TypeScript;</li>
+                <li class="list_item">Jquery;</li>
+                <li class="list_item">React;</li>
+                <li class="list_item">Node.js;</li>
+                <li class="list_item">Next.js;</li>
+                <li class="list_item">Nest.js;</li>
+                <li class="list_item">Express;</li>
+                <li class="list_item">GraphQL;</li>
+                <li class="list_item">Material UI/Styled Components;</li>
+                <li class="list_item">PHP;</li>
+                <li class="list_item">Python;</li>
+                <li class="list_item">MySQL.</li>
+                <li class="list_item">C#.</li>
+                <li class="list_item">Many others...</li>
+            </ul>
+
+            <h2 class="main_title">Code examples</h2>
+
+            <hr />
+
+            <pre class="js"><code>        const every = (array, predicate) =&gt; {
+            for (let i = 0; i &lt; array.length; i++) {
+                if (!predicate(array[i])) return false;
             }
+        
             return true;
-        }
+        };
 
-        function some(array, predicate) 
-        {
-            for (var i = 0; i &lt; array.length; i++) 
-            {
-                if (predicate(array[i]))
-                    return true;
+        const some = (array, predicate) =&gt; {
+            for (let i = 0; i &lt; array.length; i++) {
+                if (predicate(array[i])) return true;
             }
+        
             return false;
-        }
+        };
 
-        console.log(every([NaN, NaN, NaN], isNaN)); // → true
-        console.log(every([NaN, NaN, 4],   isNaN)); // → false
-        console.log(some([NaN, 3, 4],      isNaN)); // → true
-        console.log(some([2, 3, 4],        isNaN)); // → false
-    </code>
-    </pre>
+        console.log(every([NaN, NaN, NaN], Number.isNaN)); // → true
+        console.log(every([NaN, NaN, 4], Number.isNaN)); // → false
+        console.log(some([NaN, 3, 4], Number.isNaN)); // → true
+        console.log(some([2, 3, 4], Number.isNaN)); // → false</code></pre>
 
-    <h2 id="experienceandeducation">Experience and Education</h2><hr>
-    <p>
-        <strong>Novopolski State Agrarian and Economic College (2017-2019 years)</strong><br/>
-        <a href="https://geekbrains.ru/users/67753">GeekBrains</a><br/>
-        <a href="https://htmlacademy.ru/profile/id93462">HtmlAcademy</a><br/>
-        <a href="https://www.freecodecamp.org/fcce20a1234-7d64-4173-8322-85ddfafbc0b4">FreeCodeCamp</a><br/>
-        <strong>Also participated in various webinars and free courses, learned a lot of interesting information from articles and videos, now this helps me develop projects better.</strong>
-    </p>
+            <h2 class="main_title">Experience and Education</h2>
 
-    <h2 id="english">English</h2><hr>
-    <p>
-        <strong>Pre-intermediate (A2) level in accordance with EPAM Training test result. I can write simple sentenses and understand slow speech.</strong>
-    </p>
-</div>
-</body>
+            <hr />
+
+            <ul class="main_list">
+                <li class="list_item">EPAM (2021-today years);</li>
+                <li class="list_item">Novopolsky State Agrarian and Economic College (2016-2019 years);</li>
+                <li class="list_item">
+                    <a href="https://gb.ru/users/1d84a0d3-40c6-4a98-b4cc-9fe2a1fef252">GeekBrains</a>;
+                </li>
+                <li class="list_item"><a href="https://htmlacademy.ru/profile/id93462">HtmlAcademy</a>;</li>
+                <li class="list_item"><a href="https://www.freecodecamp.org/Raman_Hupalenka">FreeCodeCamp</a>.</li>
+            </ul>
+
+            <h2 class="main_title">English</h2>
+
+            <hr />
+
+            <p class="main_paragraph">Intermediate (B1+) level. I can write, speak and understand speech in English.</p>
+        </main>
+        <script async>
+            window.addEventListener(
+                'DOMContentLoaded',
+                () => {
+                    hljs.highlightAll();
+                },
+                {
+                    once: true,
+                }
+            );
+        </script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/javascript.min.js"
+        ></script>
+    </body>
 </html>
